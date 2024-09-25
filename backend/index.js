@@ -14,7 +14,8 @@ const PORT = process.env.PORT || 3000
 connectDB()
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://codepen-frontend-sigma.vercel.app',
+  // origin: 'http://localhost:5173',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 }))
