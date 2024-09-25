@@ -55,14 +55,6 @@ const SignUpForm = () => {
           <label className="text-sm text-zinc-700">Choose Password</label>
           <input type="password" className="w-full bg-[#D5D7DE] h-[50px] mt-1 rounded-sm px-2" name="password" value={formData.password} onChange={handleChange} required />
           <div className="">
-            {/* <p className="text-sm">Your password must:<br />
-              <ul className="text-zinc-600 list-disc">
-                <li>Include an UPPER and lowercase letter</li>
-                <li>Include a number</li>
-                <li><span>{`Include one or more of these special characters: .@$!%*#?&><)(^-_`}</span></li>
-                <li>Be between 8 and 100 characters</li>
-              </ul>
-            </p> */}
             <button className="text-2xl font-semibold bg-primary rounded-sm text-zinc-50 py-3 px-7 my-4" type="submit">Submit</button>
           </div>
         </div>
