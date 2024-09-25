@@ -1,5 +1,3 @@
-import { FcGoogle } from "react-icons/fc"
-import { IoLogoGithub } from "react-icons/io"
 import SignUpForm from "../components/SignUpForm"
 import { IoMdCheckbox } from "react-icons/io";
 import { AiFillStop } from "react-icons/ai";

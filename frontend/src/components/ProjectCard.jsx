@@ -28,9 +28,9 @@ const ProjectCard = ({ project }) => {
           ${project.cssCode || ''}
         </style>
       </head>
-      <body>
+      <body> 
         ${project.htmlCode || ''}
-        <script>${project.jsCode || ''}</script>
+        <script type="module">${project.jsCode || ''}</script>
       </body>
     </html>
   `;

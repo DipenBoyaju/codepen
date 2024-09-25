@@ -73,7 +73,7 @@ const ProjectPenView = () => {
         </head>
         <body>
           ${htmlCodes}
-          <script>${jsCodes}</script>
+          <script type="module">${jsCodes}</script>
         </body>
       </html>
     `;

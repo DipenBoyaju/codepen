@@ -61,7 +61,7 @@ const NewPen = () => {
         </head>
         <body>
           ${htmlCode}
-          <script>${jsCode}</script>
+          <script type="module">${jsCode}</script>
         </body>
       </html>
     `;
