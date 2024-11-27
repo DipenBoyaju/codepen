@@ -70,7 +70,7 @@ const YourWork = () => {
           </div>
         </div>
       </div>
-      <div className={`py-6 grid ${list ? 'grid-cols-1 gap-0' : 'grid-cols-3 gap-4'}`}>
+      <div className={`py-6 grid ${list ? 'grid-cols-1 gap-0' : ' grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'}`}>
         {
           list && (
             <div className="grid grid-cols-16 text-zinc-50 font-semibold font-lato p-2">

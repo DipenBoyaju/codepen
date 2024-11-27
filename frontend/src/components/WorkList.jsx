@@ -33,7 +33,7 @@ const WorkList = ({ project }) => {
         <div className="col-span-1 flex justify-center border-r border-[#131417]"><div className="bg-[#717790] rounded-sm text-zinc-50 p-1 opacity-0 group-hover:opacity-100 transform duration-500 transition-all"><Expand size={20} /></div></div>
         <div className="col-span-3 border-r border-[#131417] text-[#9B9DAD] text-sm pl-3">{createdDate}</div>
         <div className="col-span-3 border-r text-[#9B9DAD] text-sm border-[#131417] px-3">{updatedDate}</div>
-        <div className="col-span-3 border-r border-[#131417] text-[#9B9DAD] text-sm px-3">Stats</div>
+        <div className="col-span-3 border-r border-[#131417] text-[#9B9DAD] text-sm px-3">{project.penVisibility ? 'Public' : 'Private'}</div>
         <div className="col-span-1 text-[#9B9DAD] text-2xl flex justify-center"><HiDotsHorizontal className="hover:text-zinc-200 cursor-pointer relative" onClick={() => handleMenuClick(project._id)} />
           {
             projectMenu === project._id && (<div ref={menuRef} className="absolute">

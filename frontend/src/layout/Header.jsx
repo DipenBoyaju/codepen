@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ProfileMenu from "../components/ProfileMenu";
 import { useAddProjectMutation, useUpdateProjectMutation } from "../apis/project.Api";
 import PenSetting from "../components/PenSetting";
-import { setLayoutIndex, setCaptureScreenshot, setProjectId, setTitle } from '../features/codeeditor/codeEditorSlice'
+import { setLayoutIndex, setProjectId, setTitle } from '../features/codeeditor/codeEditorSlice'
 import SaveMessage from "../components/SaveMessage";
 import LoginForm from "../components/LoginForm";
 import { ImCross } from "react-icons/im";
